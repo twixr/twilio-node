@@ -33,7 +33,7 @@ interface PlaybackGrantListInstance {
   /**
    * @param sid - sid of instance
    */
-  (sid: string): PlaybackGrantContext;
+  (): PlaybackGrantContext;
   /**
    * Constructs a playback_grant
    */
